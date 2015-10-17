@@ -143,12 +143,34 @@ button:hover {
   font-size: 1.5em;
   font-weight: 400;	
 }
+.social {
+	width: 50%;
+    padding: 0;
+    margin: auto;
+}
+.content-footer {
+	margin: 6.5em auto;
+}
 .icons {
-  list-style: none;
-  
+	width: 225px;
+	margin: 0 auto;
+	list-style-type: none;
+	display: inline-flex;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
 }
 
-
+i {
+	padding: 0 1.1em;
+	width: 50px;
+	margin: 0 auto;
+}
+p {
+	text-align: center;
+	padding: 1em 0;
+}
 
 @media (min-width: 75rem){
 	.content {
