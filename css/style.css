@@ -95,40 +95,47 @@ button:hover {
     border-color: #cf3d0e;
     cursor: pointer;
 }
+.cases {
+	padding-bottom: 3.25em;
+}
 .cases > h2, .cases > h3 {
     font-family: 'Roboto', sans-serif;
 	text-align: center;
 }
 .cases > h2 {
-	font-size: 2.75em;
+	font-size: 2.77em;
 	font-weight: 300;
-	margin-top: 2.75em;
+	margin-top: 2.65em;
+	color: #333333;
 
 }
 .cases > h3 {
 	font-size: 1em;
 }
+.social {
+	width: 50%;
+    padding: 0;
+    margin: auto;
+}
 .flex-container, .text-container {
-  width: 1000px;
+  width: 1100px;
   padding: 0;
   margin: 0 auto;
   list-style: none;
-  
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;
-  
+  display: flex; 
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
 
 .flex-item {
-  padding: 5px;
-  width: 200px;
+  padding: .5em 1em;
+ /* width: 200px; */
   height: 150px;
-  margin-top: 10px; 
+ /* margin-top: .2em; */
   line-height: 150px;
   color: white;
   font-weight: bold;
@@ -137,16 +144,15 @@ button:hover {
 }
 .text-item {
   margin-top: 1em;
-  margin-left: -3.75em;
+  margin-left: -2.75em;
 }
 .text-item > h3 {
   font-size: 1.5em;
   font-weight: 400;	
 }
-.social {
-	width: 50%;
-    padding: 0;
-    margin: auto;
+hr.line {
+	margin-top: -3em;
+	border-top: .06em solid #c1c1c1;
 }
 .content-footer {
 	margin: 6.5em auto;
@@ -166,13 +172,24 @@ i {
 	padding: 0 1.1em;
 	width: 50px;
 	margin: 0 auto;
+	color: #47a4c9;
+}
+i.fa-facebook {
+	color: #4D43FA;
+}
+i.fa-instagram {
+	color: #4E7CFA;
 }
 p {
 	text-align: center;
 	padding: 1em 0;
 }
+.copy {
+	color: #838994;
+	font-size: .85em;
+}
 
-@media (min-width: 75rem){
+@media (min-width: 75rem) {
 	.content {
 	    width: 60%;
 	}
